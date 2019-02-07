@@ -102,7 +102,7 @@ def process_videos():
         book_info.append(books_by_ep)
 
     #write the book titles and book names in a CSV if the video entry doesn't already exist
-    f3 = csv.writer(open("/Users/pvirani/books_on_toast/botcast_final_list.csv", "r+"))
+    f3 = csv.writer(open("/Users/pvirani/books_on_toast/botcast_final_list.csv", "r+")) #add your own filepath here
     f3.writerow(["video title", "books discussed"])
 
     with open("reviewed_books.txt", "r+") as f4:
