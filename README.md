@@ -6,4 +6,4 @@ How to run this on Mac:\
   Open 'youtube_script.py'\
   Add your developer key and replace the export filepath with the filename you want to export the booklist to\
   Run/Execute youtube_script.py\
-  You should now be able to see the book list exported in CSV format\
+  You should now be able to see the book list exported in CSV format
